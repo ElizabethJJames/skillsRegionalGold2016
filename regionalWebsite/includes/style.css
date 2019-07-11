@@ -1,0 +1,565 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* COLOR CODES
+
+gold	#FFD700	
+	rgb(255,215,0)
+
+Light Blue	#4169E1
+	rgb(65,105,225)
+
+Dark Blue	#074389
+	rgb(7,67,137)
+
+Dark Red	#8B0000	
+	rgb(139,0,0)
+
+Light Red
+#ff3333 
+rgb( 255, 51, 51)
+
+ */
+
+/************* Main Styles (all Pages) *****************/
+	body{
+		margin: 0;
+		padding: 0;
+		background:url(../images/triangular.png) repeat;	
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	
+	}
+	h1{
+	color:#074389;
+	text-align: center;
+}
+
+	#layout a{
+		color: #000;
+		text-decoration: none;
+	}
+	#layout a:hover{
+		color: #4169E1;
+	}
+	
+	#white{
+		height: 100%;
+		width: 964px;
+		margin: 0 auto;	
+		position: fixed;
+		right: 0;
+		left: 0;
+		background: #fff;
+		z-index: -1;
+		}
+	#layout{
+		display: block; 
+		background: #FFF;
+		width: 964px;
+		margin: 0 auto;	
+	}
+	header{
+		background: #fff;
+		height: 175px;
+		margin: 0 auto;	
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+	}
+	#headcontain {
+	max-width: 1200px;
+	margin: 0 auto;	
+	}
+	header #title{
+		background:url(../images/skillsusalogo.png) no-repeat;
+		float: left;	
+		height: 140px;
+		width: 480px;
+		margin: 10px 0 0 25px;
+		padding: 20px 20px 0 100px;
+	}
+	header h1{
+		margin: 0;	
+		padding: 0;
+		font-size:40px;
+	}
+	header h2{
+		margin: 0 0 0 100px;	
+		padding: 0;
+		color: #8B0000;
+	}
+	header h3{
+		margin: 0;
+		color: #8B0000;
+	}
+	.social{
+		margin: 0;	
+		float:right;
+		padding:20px 20px;
+		text-align: center;
+		width: 300px;
+	}
+	ul#social {
+				
+		margin: 25px 75px;
+		padding: 0;
+
+	}
+	ul#social li {
+		list-style:none;
+		float:left;
+	}
+	
+	ul#social a {
+		display:block;
+		width:50px;
+		height:50px;
+		text-indent:-999em;
+		background:url(../images/socialsprite.png) no-repeat 0px -50px;
+		margin-right:15px;
+	}
+	ul#social a:hover {
+		background:url(../images/socialsprite.png) no-repeat 0px 0px;
+	}
+	ul#social li:nth-child(2) a {
+		background:url(../images/socialsprite.png) no-repeat -400px -50px;
+	}
+	ul#social li:nth-child(2) a:hover {
+		background:url(../images/socialsprite.png) no-repeat -400px 0px;
+	}
+
+
+	nav {
+		clear: both;
+		background-color: #074389;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	nav ul {
+		display: block;
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		height: 55px;
+	}
+	nav ul li {
+		display: block;
+		list-style-type: none;
+		float: left;
+		width: 25%;
+		text-align: center;
+		padding: 0px;
+		vertical-align: middle;
+		margin: 0px;
+		height: 55px;
+	}
+	nav li a {
+		text-decoration: none;
+		font-size: 24px;
+		color: #FFF;
+		display: block;
+		line-height: 55px;
+	}
+	nav li a:hover {
+		background-color: #4169e1;
+		color: #FFD700;	
+	}
+	nav .current {
+		background-color: #4169e1;
+	}
+footer {
+	background-color: #074389;
+	padding: 15px 5px;
+	clear: both;
+	height: 225px;
+	color: #fff;
+}
+#footcontain {
+	max-width: 1200px;
+	margin: 0 auto;	
+	}
+footer cite{
+text-align: left;
+clear: both;
+float: left;	
+margin: 10px;
+}
+
+
+footer ul {
+	display: block;
+	list-style-type: none;
+	margin: 0 0 0 20px;
+	padding: 0px;
+	float: left;
+	width: 250px;
+}
+footer ul li {
+	display: block;
+	list-style-type: none;
+	width: 100%;
+	margin-top: 5px;
+
+}
+footer #rightfoot{
+float: right;
+margin-top: -50px;
+padding: 0 50px;	
+}
+
+
+footer a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+footer a:hover {
+	color: #FFD700;	
+}
+footer p{
+	display: block;
+	margin: 10px;
+	padding: 0;
+	text-align: left;
+}
+/******HOME**********/
+
+	#homepage #layout #buckets{
+	margin: 20px 17px;	
+	}
+	
+	#homepage #layout #buckets div{
+		width: 294px;
+		float: left; 
+		margin: 5px 5px 20px 5px;
+		height: 225px;
+		border-radius: 3px;
+		border: medium groove #FFD700;
+		background: #eee;
+	}
+	#homepage #layout #buckets h2{
+		text-align: center;
+		background: #8B0000;
+		margin: 0;
+		padding: 5px;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+		color: #FFD700;
+		
+	}
+	#homepage #layout #buckets p{
+		width: 274px;
+		padding:10px;
+		text-align: justify;
+		
+	}
+	#homepage #layout #buckets a{
+		float: right;
+		padding: 5px;
+		font-weight: bold;
+		color: #8B0000;
+	}
+	#homepage #buckets a:hover{
+		color: #074389!important;
+	}
+	#homepage #layout section:nth-of-type(1){
+		text-align:center;
+	}
+	#homepage #layout p{
+		text-align:center;
+		padding: 20px 50px; }
+		
+/****** LOGIN ******/
+
+#loginpage legend{
+	color:#8B0000;
+	text-align:center;
+}
+
+
+#loginpage form{
+	width:600px;
+	height:auto;
+	margin:auto;
+}
+
+#loginpage .required{
+	color:#F00
+}
+
+#loginpage label {
+	width:10em;
+	display:block;
+	float:left;
+	margin-right:2px;
+	text-align:right;
+	color:#074389;
+}
+#loginpage label {
+	width:10em;
+	display:block;
+	float:left;
+	margin-right:2px;
+	text-align:right;
+	color:#074389;
+}
+
+#loginpage form li {
+	margin-bottom:5px;
+	margin-left:2px;
+	clear:both;
+	list-style-type:none;
+}
+
+#loginpage #layout div{
+	width:600px;
+	height:auto;
+	margin:auto;
+}
+
+#loginpage #layout #link{
+height:auto;
+	margin:50px auto;
+	background: #8B0000; 
+	color: #FFD700;
+	text-align:center;
+	border-radius: 15px;
+	border: medium groove #FFD700;
+}
+#loginpage #layout #link a{
+color: #FFD700;
+}
+#loginpage #layout #link a:hover{
+	color: #FFF;
+}
+#loginpage .button{
+display: block;
+margin: 0 auto;
+width: 150px;	
+}
+/***** REGISTRATION PAGE*****/
+
+#registrationpage legend{
+	color:#8B0000;
+	text-align:center;
+}
+
+
+#registrationpage form{
+	width:600px;
+	height:auto;
+	margin:auto;
+}
+
+#registrationpage .required{
+	color:#F00
+}
+
+#registrationpage label {
+	width:10em;
+	display:block;
+	float:left;
+	margin-right:2px;
+	text-align:right;
+	color:#074389;
+}
+
+#registrationpage form li {
+	margin-bottom:5px;
+	margin-left:2px;
+	clear:both;
+	list-style-type:none;
+}
+
+
+#registrationpage span{
+	color:#F00;
+}
+
+#registrationpage .button{
+ width: 200px; 
+ text-align: center;	
+ margin: 25px 0 25px  65px;
+}
+
+#registrationpage #registration input:focus {
+	background:#ccc;
+}
+
+#registrationpage .success{
+	position: absolute;
+ 	left: -100000px;
+	visibility: hidden;	
+}
+
+#registrationpage .thankyou{
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	height: 950px;
+	left: 0px;
+	top: 230px;
+	background:rgba(6,55,113,.75);
+	text-align:center;
+}
+#registrationpage .thankyou h2{
+	padding-top: 300px;
+}
+
+#registrationpage .thankyou a {
+	color: #fff;
+}
+#registrationpage .thankyou p {
+	text-align: right;	
+	padding-right: 35%;
+}
+
+/************* NEWS PAGE *********/
+
+#newspage #layout hr {
+	color: #063771;
+	background-color: #063771;
+	height: 3px;
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+#newspage #layout article {
+	margin-left: 3%;
+	float: left;
+	display: block;
+	width: 60%;
+	padding-right: 1%;
+}
+#newspage #layout article p {
+	padding-left: 20px;
+}
+
+#newspage #layout aside {
+	width: 29%;
+	float: left;
+	padding-right: 4%;
+	padding-left: 3%;
+	padding-top: 50px;
+	border-top-color: #063771;
+	border-right-color: #063771;
+	border-bottom-color: #063771;
+	border-left-color: #063771;
+	padding-bottom: 50px;
+	margin-top: 10px;
+}
+
+
+#newspage #layout article h3 {
+	color: #8B0000;
+}
+#newspage #layout aside h2 {
+	color: #8B0000;
+}
+
+#newspage #layout table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	margin-bottom: 50px;
+}
+
+
+#newspage #layout aside table th {
+	text-align: center;
+	color: #FFF;
+	background-color: #063771;
+}
+#newspage #layout aside table td {
+	width: 30px;
+	height: 25px;
+}
+#newspage #layout table tr .week {
+	color: #063771;
+	background: #fff;
+}
+#newspage #layout table tr .thing {
+	color: #8B0000;
+}
+#newspage #layout aside .date {
+	font-weight: bold;
+	color: #8B0000;
+	margin: 0px;
+	padding: 0px;
+}
+#newspage #layout aside .event {
+	margin-left: 20px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+#newspage #layout  #bot {
+	clear: both;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+#newspage #layout #bot h2 {
+	color: #8B0000;
+	text-align: center;
+}
+/************* CONTACT PAGE ********************/
+#contactpage #layout h2{
+	color: #8B0000;	
+}
+
+#contactpage aside{
+	float: left;
+	margin: 25px auto;	
+	width: 350px;
+	text-align:center;
+}
+#contactpage article{
+width: 500px;	
+float:left;
+padding: 0 50px 50px 50px;
+}
+#contactpage fieldset{
+	padding: 0 50px;
+}
+#contactpage legend{
+	color:#8B0000;
+	text-align:center;
+}
+#contactpage label{ 
+float: left;
+clear: both;
+margin-top: 20px;
+color:#074389;
+}
+#contactpage input{
+float: left;
+clear: both;
+width: 90%;
+margin-left: 20px;
+}
+#contactpage select{
+float: left;
+clear: both;
+width: 90%;
+margin-left: 20px;
+}
+#contactpage textarea{
+float: left;
+clear: both;
+width: 90%;
+height: 5em;
+margin-left: 20px;
+}
+#contactpage .btn{
+	width: 40%;
+	float:left;
+	clear: none;
+	margin: 20px 0 20px 30px;
+	}

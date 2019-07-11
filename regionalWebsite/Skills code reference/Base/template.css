@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* COLOR CODES
+
+gold	#FFD700	
+	rgb(255,215,0)
+
+Light Blue	#4169E1
+	rgb(65,105,225)
+
+Dark Blue	#074389
+	rgb(7,67,137)
+
+Dark Red	#8B0000	
+	rgb(139,0,0)
+
+Light Red
+#ff3333 
+rgb( 255, 51, 51)
+
+ */
+
+/************* Main Styles (all Pages) *****************/
+	body{
+		margin: 0;
+		padding: 0;
+		background:url(  ) repeat;	
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif	
+	}
+	#layout a{
+		color: #000;
+		text-decoration: none;
+	}
+	#layout a:hover{
+		color: #4169E1;
+	}
+	
+	#white{
+		height: 100%;
+		width: 964px;
+		margin: 0 auto;	
+		position: fixed;
+		right: 0;
+		left: 0;
+		background: #fff;
+		z-index: -1;
+		}
+	#layout{
+		display: block; 
+		background: #FFF;
+		width: 964px;
+		margin: 0 auto;	
+	}
+	header{
+		background: #fff;
+		height: ;
+		margin: 0 auto;	
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+	}
+
+	nav {
+		clear: both;
+		background-color: ;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	nav ul {
+		display: block;
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		height: 55px;
+	}
+	nav ul li {
+		display: block;
+		list-style-type: none;
+		float: left;
+		width: ;
+		text-align: center;
+		padding: 0px;
+		vertical-align: middle;
+		margin: 0px;
+		height: 55px;
+	}
+	nav li a {
+		text-decoration: none;
+		font-size: 24px;
+		color: ;
+		display: block;
+		line-height: 55px;
+	}
+	nav li a:hover {
+		background-color: ;
+		color: ;	
+	}
+	nav .current {
+		background-color: ;
+	}
+
+
+
+footer {
+	background-color: ;
+	clear: both;
+}
+footer ul {
+	display: block;
+	list-style-type: none;
+	float: left;
+}
+footer ul li {
+	display: block;
+	list-style-type: none;
+
+}
+
+footer a {
+	color: ;
+	text-decoration: none;
+
+}
+footer a:hover {
+	color: ;	
+}
+footer p{
+	display: block;
+}

@@ -1,0 +1,148 @@
+/* REGISTER FLOATER */
+	#registerfloater{
+	position: fixed;
+	top: 250px;
+	Right: 0;
+	color: #900;
+	width: 1164px;
+	text-align: center;
+	font-size: 2em;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	z-index: -1;
+	}
+	#registerfloater a{
+	display: block;
+	color: #900;
+	height: 100px;
+	width: 100px;
+	line-height: 50px;
+	margin-left: 1064px;
+	text-decoration: none;
+	background-color: rgba(255,204,51,.75);
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 20px;
+	font-size: 24px;
+	}
+	#registerfloater a:hover{
+	color: #003366;
+	}
+	
+	/***** REGISTRATION PAGE****/
+#registrationpage a{
+color:#336699;	
+}
+#registrationpage label{
+	margin-bottom:20px;
+	margin-right:20px;
+	color: #003366;
+}
+#registrationpage input{
+	margin:10px;
+	width:200px;
+	display:block;
+	margin-bottom:20px;
+}
+#registrationpage select{
+	margin:10px;
+	width:200px;
+	display:block;
+	margin-bottom:20px;
+}
+#registrationpage .error{color:#f00; 
+	font-size:0.9em; 
+	margin-left:8em;
+}
+#registrationpage fieldset{
+	display: block;
+	margin: 50px auto;
+	width: 600px;	
+	border: medium groove #C79C1B;
+	padding: 10px;
+	color: #003366;
+}
+
+#leftform{
+	float:left;	
+	width: 250px;
+	margin: auto 10px auto 30px;
+}
+#rightform{
+	width:250px;
+	float:left;	
+	margin: auto 30px auto 10px;
+}
+.button{
+	float:left;
+}
+.submit{
+	display:block;
+	width: 450px;
+	margin: 0 auto;
+}
+	
+#registrationpage legend{
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-top-color: #C79C1B;
+	border-right-color: #C79C1B;
+	border-bottom-color: #C79C1B;
+	border-left-color: #C79C1B;
+	font-size: 24px;
+	color: #900;
+	padding: 5px;
+}
+
+#registrationpage #intro{
+	display: block;
+	width: 700px;
+	margin: 0 auto;	
+}
+
+.required{
+	color:red
+}
+
+#privacy{
+ clear: both;
+ margin-top: 5px;
+}
+
+.success{
+	position: absolute;
+ 	left: -100000px;
+	visibility: hidden;	
+}
+
+.thankyou{
+	position: absolute;
+	color: #fff;
+	width: 964px;
+	height: 200px;
+	left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	top: 225px;
+	background:rgba(6,55,113,.9);
+	text-align:center;
+}
+.thankyou h2{
+	padding-top: 50px;
+	color: #fff;
+}
+
+.thankyou a {
+	color: #fff;
+}
+.thankyou p {
+	text-align: right;	
+	padding-right: 35%;
+}
+span{
+ color:#900;	
+}

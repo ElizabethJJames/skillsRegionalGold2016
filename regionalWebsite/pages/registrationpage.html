@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Register at SkillsUSA at Manatee Technical College to become a proud member of the Florida chapter.">
+<meta name="author" content="Created by Elizabeth Witter and Bethany Connor">
+<title>
+Register with SkillsUSA Florida at Manatee Technical College
+</title>
+<link href="../includes/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="white"></div>
+	<div id="registrationpage">
+    	<header>
+        <div id="headcontain">
+        <a href="../index.html"><div id="logotitle">
+                <div id="title">
+                <h1>SkillsUSA Florida</h1>
+                <h2>at Manatee Technical College</h2>
+                </div>
+            </div></a>
+            <div class="social">
+            	<h3>"Gearing up for the right direction!"</h3>
+                <ul id= "social">
+                   <li><a href="#" target="_blank">Facebook</a></li>
+                   <li><a href="#" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <nav>
+        	<ul>
+            	<li><a href="../index.html"> Home </a></li>
+                <li><a href="loginpage.html"> Members </a></li>
+                <li><a href="newspage.html"> News </a></li>
+                <li><a href="contactpage.html"> Contact </a></li>
+           	</ul>
+        </nav>
+        <main id="layout">
+        	<h1>Member Registration Form</h1>
+<form id="registration" method="post" action="">
+ <fieldset><legend>Account Information:</legend>
+ <ul>
+ <li>
+ <label for="user">User Name:<span class="required">*</span></label>
+  <input type="text" name="user" id="user">
+  <span id="user_error">&nbsp;</span>
+</li>
+ <li>
+ <label for="password">Password:<span class="required">*</span></label>
+  <input type="text" name="password" id="password">
+  <span id="password_error">&nbsp;</span>
+</li>
+<li>
+  <label for="email">Email:<span class="required">*</span></label>
+  <input type="text" name="email" id="email">
+  <span id="email_error">&nbsp;</span>
+</li>
+ 
+ <li>
+  <label for="confirm">Confirm Email:<span class="required">*</span></label>
+  <input type="text" name="confirm" id="confirm">
+  <span id="confirm_error">&nbsp;</span>
+ </li>
+</ul>
+ </fieldset>
+ <fieldset><legend>Personal Information:</legend>
+ <ul>
+ <li>
+  <label for="first">First Name:<span class="required">*</span></label>
+  <input type="text" name="first" id="first">
+  <span id="first_error">&nbsp;</span>
+  </li>
+  <li>
+  <label for="last">Last Name:<span class="required">*</span></label>
+  <input type="text" name="last" id="last">
+  <span id="last_error">&nbsp;</span>
+  </li>
+  <li>
+  <label for="company">Company/ Organization</label>
+  <input type="text" name="company" id="company">
+ </li>
+ <li>
+  <label for="street">Street Address:</label>
+  <input type="text" name="street" id="street">
+  </li>
+  <li>
+  <label for="city">City:</label>
+  <input type="text" name="city" id="city">
+  </li>
+  <li>
+  <label for="state">State:</label>
+  <select name="state" id="state">
+      <option selected="selected">Please Select</option>
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option>Arizona</option>
+      <option>Arkansas</option>
+      <option>California</option>
+      <option>Colorado</option>
+      <option>Connecticut</option>
+      <option>Delaware</option>
+      <option>District of Columbia</option>
+      <option>Florida</option>
+      <option>Georgia</option>
+      <option>Hawaii</option>
+      <option>Idaho</option>
+      <option>Indiana</option>
+      <option>Iowa</option>
+      <option>Kansas</option>
+      <option>Kentucky</option>
+      <option>Louisiana</option>
+      <option>Maine</option>
+      <option>Maryland</option>
+      <option>Massachusetts</option>
+      <option>Michigan</option>
+      <option>Mississippi</option>
+      <option>Missouri</option>
+      <option>Montana</option>
+      <option>Nebraska</option>
+      <option>Nevada</option>
+      <option>New Hampshire</option>
+      <option>New Jersey</option>
+      <option>New Mexico</option>
+      <option>New York</option>
+      <option>North Carolina</option>
+      <option>North Dakota</option>
+      <option>Ohio</option>
+      <option>Oklahoma</option>
+      <option>Oregon</option>
+      <option>Pennsylvania</option>
+      <option>Rhode Island</option>
+      <option>South Caronlina</option>
+      <option>South Dakota</option>
+      <option>Tennessee</option>
+      <option>Texas</option>
+      <option>Utah</option>
+      <option>Vermont</option>
+      <option>Virginia</option>
+      <option>Washington</option>
+      <option>West Virginia</option>
+      <option>Wisconsin</option>
+      <option>Wyoming</option>
+    </select>
+ </li>
+ <li>
+  <label for="zip">Zip Code:</label>
+  <input type="text" maxlength="5" name="zip" id="zip">
+  </li>
+  </ul>
+  </fieldset>
+           		<fieldset>
+               		<legend>Volunteer</legend>
+                	<p>Are you interested helping to gear our students in the right direction?</p>
+                    <input type="checkbox" name="volunteer" id="volunteeryes">
+                    <label for="volunteeryes">Yes, Please</label>
+                    <br>
+                    <input type="checkbox" name="volunteer" id="volunteerno">
+                    <label for="volunteerno">No, Thank You</label>
+               </fieldset>
+            	<fieldset><legend>Privacy Statement</legend>
+                    <p><strong>SkillsUSA Florida provides your information only to our staff on an as needed basis.  None of your information will be sold or available to any one outside our organization.</strong></p> 
+              </fieldset> 
+              <div class="submit">
+              <input class="button" type="button" name="submit" id="submit" value="Register">
+              <input class="button" type="reset" name="reset" id="reset" value="Clear Form">
+              </div>
+            </form>
+            <div id="thanks" class="success">
+<h2>Thank you for successfully registering!</h2>
+<p><a href="loginpage.html">back to login >></a></p>
+</div>
+        </main>
+        <footer>
+        <div id="footcontain">
+        <p>Breadcrumb navigation:
+            <a href="index.html">Home</a> > <a href="loginpage.html">Login</a> ><a href="#">Registration</a> ></p>
+			 <ul>
+                <li><a href="../index.html"> Home </a></li>
+                <li><a href="pages/loginpage.html"> Members </a></li>
+                <li><a href="pages/newspage.html"> News </a></li>
+                <li><a href="contactpage.html"> Contact </a></li>
+            </ul>
+                <ul>
+                <li><a href="#"> SkillsUSA </a></li>
+                <li><a href="#"> Manatee Technical College </a></li>
+                <li><a href="#"> Manatee School Board </a></li>
+                <li><a href="#"> Manatee County </a></li>
+            </ul>
+            
+            <div id="rightfoot">
+            <h3>Contact Us</h3>
+            <address>SkillsUSA Florida at MTC
+            <br/>
+            6305 State Road 70 East, Bradenton, FL 34203
+            <br/>
+            941-951-7900
+            <br/>
+            mtc@manateeschools.net
+            </address>
+            </div>
+            <cite>© SkillsUSA Trust, Inc. All rights reserved.</cite>
+            </div>
+        </footer>
+	</div>
+    <script language="javascript" src="../includes/registration.js"></script>
+</body>
+</html>
